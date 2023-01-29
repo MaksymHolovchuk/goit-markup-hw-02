@@ -1,5 +1,16 @@
+:root {
+--main-title-color: #FFFFFF;
+--second-title-color: #434455;
+--main-btn-color: #FFFFFF;
+--second-btn-color: #434455;
+--typical-lh: 1.2;
+}
+
+
+
+/* --------------------------body-------------------- */
 body {
-font-family: roboto;
+font-family: roboto, sans-serif;
 }
 .link {text-decoration: none;}
 .list{list-style: none;}
@@ -10,7 +21,7 @@ font-family: roboto;
 .header-navigation {
 }
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -20,7 +31,7 @@ text-transform: uppercase;
 color: #4D5AE5;
 }
 .header-logo-after {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -36,7 +47,7 @@ color: #2E2F42;
 }
 
 .header-link {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -53,7 +64,7 @@ color: #2E2F42;
 .header-adress-item {
 }
 .header-adress-link {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -65,15 +76,15 @@ color: #434455;
     background-color: #2E2F42;
 }
 .hero-title {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--main-title-color);
 }
 .hero-btn { 
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -90,7 +101,7 @@ cursor: pointer;
 .about-team-item {
 }
 .about-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -98,18 +109,18 @@ cursor: pointer;
     color: #2E2F42;
 }
 .about-after-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--second-title-color);
 }
 .about-item {
 }
 /* --------------------------work-------------------- */
 .work {
 }
-.work-title {font-family: 'Roboto';
+.work-title {font-family: 'Roboto', sans-serif;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -122,9 +133,9 @@ cursor: pointer;
 }
 /* --------------------------team-------------------- */
 .team-title {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -135,7 +146,7 @@ color: #2E2F42;
 .team-item {
 }
 .team-title-employee {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -144,17 +155,18 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-after-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* --------------------------footer-------------------- */
 .footer { background-color: #2E2F42
 }
 .footer-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -165,7 +177,7 @@ text-transform: uppercase;
 color: #4D5AE5;
 }
 .footer-logo-after {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -175,12 +187,13 @@ text-transform: uppercase;
 color: #F4F4FD;
 }
 .footer-text { 
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
+/* --------------------------digital-------------------- */
 .digital {
 }
 .digital-list {
@@ -190,7 +203,7 @@ color: #E7E9FC;
 .digital-item {
 }
 .digital-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -200,15 +213,15 @@ color: #E7E9FC;
     color: #4D5AE5;
 }
 .digital-title {
-    font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: var(--typical-lh);
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .digital-title-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
