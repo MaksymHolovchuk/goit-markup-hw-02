@@ -75,7 +75,7 @@ color: var(--main-title-color);
 .btn-style {
     color: var(--main-title-color);
     background-color: var(--another-color);}
-    .btn-style:hover, :focus {background-color: var(--alternative-color);}
+    .btn-style:hover, .btn-style:focus {background-color: var(--alternative-color);}
 /* --------------------------about-------------------- */
 .about {
 }
