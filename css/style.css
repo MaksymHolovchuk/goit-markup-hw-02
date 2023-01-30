@@ -194,7 +194,6 @@ letter-spacing: 0.02em;
 color: var(--after-color);
 }
 /* --------------------------digital-------------------- */
-.test-link-active{ color: var(--alternative-color);}
 .digital-list {
 }
 .list {
